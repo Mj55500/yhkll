@@ -1,0 +1,105 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #FAFAFA;
+    color: #222; 
+
+    text-align: center;
+}
+
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+    text-decoration: none;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+
+header {
+    background-color: #2C3E50;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+
+nav {
+    background-color: #34495E;
+    padding: 10px;
+    display: inline-block;
+    width: 80%;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    width: 10%;
+    vertical-align: middle;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: start;
+    row-gap: 30px;
+    padding: 20px;
+}
+
+.grid img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+section {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2C3E50;
+    color: white;
+    padding: 15px;
+}
+
+/* ===== Комментарий для li (по заданию) ===== */
+
+/*
+li {
+    display: block;
+    width: 300px;
+    margin-bottom: 5px;
+}
+*/
